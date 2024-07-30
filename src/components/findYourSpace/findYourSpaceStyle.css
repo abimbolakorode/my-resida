@@ -1,0 +1,102 @@
+
+.fys_container {
+  display: flex;
+  height: 407px;
+  padding: 2rem 10rem;
+  background-image: url("assets/find_Space_bg.png");
+  margin-bottom: 0%;
+  background-position: center top;
+  background-size: cover;
+
+}
+
+.fys_image_section img {
+    width: 74%;
+    padding-bottom: 10px;
+    object-fit: cover;
+    position: relative;
+
+}
+
+.fys_text_section{
+ text-align: left;
+ text-justify: auto;
+}
+
+.fys_image_section img, 
+.fys_text_section{
+    flex-basis: 50%;
+    margin:0 1rem;
+}
+
+.fys_text_section p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0, 0 1rem, 0;
+}
+
+.fys_text_section div span {
+    color: #fff;
+    font-size: 33px;
+    font-weight: normal;
+}
+
+.fys_button {
+     width: 33%;
+     margin-top: 2rem;
+}
+
+
+@media (max-width: 841px) {
+     .fys_container {
+       padding: 2rem;
+       height: max-content;
+       flex-direction: column;
+   }
+    
+     .fys_text_section {
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+   }
+    
+    .fys_image_section,
+    .fys_text_section {
+       flex-basis: 100%;
+  }
+    
+    .fys_text_section {
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+  }
+    
+     .fys_text_section div p {
+       font-size: 30px;
+       font-weight: bold;
+       text-align: normal;
+       padding-right: 1 0rem;
+       margin: 0, 0 1rem, 0;
+  }
+    
+    .fys_text_section div span {
+     font-size: 28px;
+    }
+    
+    .fys_button {
+      width: 100%;
+      margin-top: 2rem;
+  }
+    
+    .fys_image_section img {
+       width: 100%;
+       object-fit: cover;
+  }
+    .fys_image_section {
+        width: 98vw;
+  }
+}
+    

@@ -1,0 +1,40 @@
+.outline {
+    background-color: transparent;
+    color: #1f4b43;
+    padding: 10px 15px;
+    border: 2px solid #1f4b43;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .outline:hover, 
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+  .right_Icon{
+    margin-top: 20px;
+  }
+
+
+  .btn {
+    border: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #1f4b43;
+    font-weight: normal;
+    font-size: 15px;
+  }
